@@ -12,6 +12,12 @@ public class SingletonObject {
 
     public void showMessage() {
         System.out.println("hello...");
+        System.out.println(123);
 
+    }
+    // 这是注释
+    public void sayHello() {
+        System.out.println("hello, this is my test.");
+        System.out.println();
     }
 }
