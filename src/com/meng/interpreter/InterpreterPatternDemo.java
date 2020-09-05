@@ -21,6 +21,6 @@ public class InterpreterPatternDemo {
 
         System.out.println("John is male? " + isMale.interpret("John"));
         System.out.println("Julie is a married women? "
-                + isMarriedWoman.interpret("Married Julie"));
+                + isMarriedWoman.interpret("Married Julie harry"));
     }
 }

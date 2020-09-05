@@ -11,6 +11,7 @@ public class OrExpression implements Expression {
 
     @Override
     public boolean interpret(String context) {
-        return expr1.interpret(context) || expr2.interpret(context);
+        boolean b = expr1.interpret(context) || expr2.interpret(context);
+        return  b;
     }
 }
