@@ -1,4 +1,4 @@
-package com.meng;
+package com.meng.test;
 
 public class MyTest {
     String s = "SELECT  " +
